@@ -87,6 +87,7 @@ nav {
   background-color: white;
   /* border: 1px solid black; */
   border-radius: 10px;
+  margin: 2vh;
   display: inline-flex;
   padding: 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -102,6 +103,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* install app section starts */
@@ -119,6 +121,7 @@ nav {
   width: 90%;
   height: 300px;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 #storeicons img {
@@ -138,4 +141,27 @@ nav {
 }
 #sendline {
   margin-bottom: 5vh;
+}
+
+#radio-group {
+  margin-bottom: 5vh;
+}
+#radio-group label {
+  margin-right: 3vw;
+}
+
+#sendline input {
+  height: 5vh;
+  width: 18vw;
+  border: 1px solid gainsboro;
+  border-radius: 7px;
+}
+
+#sendline button {
+  color: white;
+  background-color: #ed5a6b;
+  height: 6vh;
+  width: 10vw;
+  border-radius: 10px;
+  font-size: 1rem;
 }
