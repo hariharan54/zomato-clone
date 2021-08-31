@@ -75,6 +75,7 @@ nav {
 .fa-search {
   color: grey;
 }
+/* header done */
 
 #sectiononeheading h1 {
   margin-top: 5vh;
@@ -84,10 +85,11 @@ nav {
 
 .card {
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 10px;
   display: inline-flex;
   padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .fa-chevron-right {
   color: grey;
@@ -102,7 +104,38 @@ nav {
   justify-content: space-around;
 }
 
+/* install app section starts */
+
 #installapp img {
-  height: 60vh;
+  height: 70vh;
   width: 20vw;
+}
+
+#installapp {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+}
+
+#storeicons img {
+  width: 10vw;
+  height: 6vh;
+}
+
+#form {
+  margin-top: 6vh;
+}
+
+#form h1 {
+  margin-bottom: 5vh;
+}
+#form p {
+  margin-bottom: 5vh;
+}
+#sendline {
+  margin-bottom: 5vh;
 }

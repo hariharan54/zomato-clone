@@ -53,6 +53,26 @@
 
     <section id="installapp">
         <img src="assets/images/sectionleft app page.png" alt="app-img">
+        <div id="form">
+            <h1>Get the Zomato App</h1>
+            <p>We will send you a link, open it on your phone to download the app</p>
+            <div style="margin-bottom: 5vh;">
+                <input type="radio" id="radio" value="email" name="radio-grp">
+                <label for="email">Email</label>
+                <input type="radio" id="radio" value="phone" name="radio-grp">
+                <label for="phone">Phone</label>
+            </div>
+            <div id="sendline">
+                <input type="text" id="fname" name="fname">
+                <button onclick="send()">Share App Link</button>
+            </div>
+
+            <p id="k">Download app from</p>
+            <div id="storeicons">
+                <img src="./assets/images/playStore.png">
+                <img src="./assets/images/appStore.png">
+            </div>
+        </div>
     </section>
 </body>
 </html>
