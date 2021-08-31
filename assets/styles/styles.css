@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Metropolis;
+  border: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+header {
+  height: 65vh;
+  width: 100%;
+  background-image: url("../images/headerhero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  font-size: larger;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding-top: 2vh;
+}
+
+#searchbar {
+  margin-top: 11vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchbar img {
+  width: 20vw;
+}
+
+#searchbar h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+  margin-top: 5vh;
+}
+
+#fullsearchbar {
+  padding: 5px;
+  margin-top: 5vh;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-map-marker-alt {
+  color: palevioletred;
+}
+
+#fullsearchbar select {
+  height: 7vh;
+  width: 13vw;
+}
+
+#fullsearchbar input {
+  height: 7vh;
+  width: 32vw;
+}
+
+.fa-search {
+  color: grey;
+}
+
+#sectiononeheading h1 {
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 15px;
+}
+.fa-chevron-right {
+  color: grey;
+  padding-top: 1vh;
+  padding-left: 1vh;
+}
+
+#cards {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#installapp img {
+  height: 60vh;
+  width: 20vw;
+}
